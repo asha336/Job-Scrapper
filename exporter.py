@@ -6,5 +6,5 @@ def save_to_csv(jobs):
   writer.writerow(['title', 'company', 'location', 'link']) 
   for job in jobs:
     writer.writerow(list(job.vslues()))
-  return
+  return job
   
